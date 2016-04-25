@@ -20,5 +20,15 @@ public class AppTest extends FluentTest {
   public void rootTest() {
     goTo("http://localhost:4567/");
     assertThat(pageSource()).contains("Square finder");
+
   }
+
+    @Test
+    public void squareTestIsNotASquare() {
+      goTo("http://localhost:4567/");
+      fill("#length").with("7");
+      fill("#width").with("5");
+      submit(".btn");
+      assertThat(pageSource()).contains("Your rectangle isn't a square!");
+    }
 }
