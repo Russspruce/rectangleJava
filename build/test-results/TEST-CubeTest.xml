@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CubeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-04-27T18:41:19" hostname="epicodus-31.local" time="0.0">
+  <properties/>
+  <testcase name="volume_determinesTheVolumeOfTheCube_27000" classname="CubeTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
