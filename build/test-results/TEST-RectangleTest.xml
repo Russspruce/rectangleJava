@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="RectangleTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2016-04-27T18:41:19" hostname="epicodus-31.local" time="0.0">
+<testsuite name="RectangleTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-04-27T18:48:54" hostname="epicodus-31.local" time="0.0">
   <properties/>
+  <testcase name="area_returnsTheAreaOfTheRectangle_450" classname="RectangleTest" time="0.0"/>
   <testcase name="newRectangle_instantiatesCorrectly" classname="RectangleTest" time="0.0"/>
   <testcase name="getWidth_getsRectangleWidth_4" classname="RectangleTest" time="0.0"/>
   <testcase name="isSquare_whenNotASquare_false" classname="RectangleTest" time="0.0"/>

@@ -10,5 +10,10 @@ public class CubeTest {
     assertEquals(27000, testCube.volume());
   }
 
-  
+  @Test
+  public void surfaceArea_determinesTheSurfaceAreaOfACube_5400() {
+    Rectangle testRectangle = new Rectangle(30, 30);
+    Cube testCube = new Cube(testRectangle);
+    assertEquals(5400, testCube.surfaceArea());
+  }
 }
